@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: rgb(253, 250, 169);
+}
+h1 {
+    text-align:center
+}
+h2 {
+    text-align:center
+}
+h3 {
+    text-align:center
+}
+td { 
+    background-color: rgb(38, 220, 233);
+    text-align: center;   
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+#button {
+    background-color: rgb(223, 150, 242);
+}
+</style>
+</head>
+<body<>
+<h1>TIC-TAC-TOE GAME</h1><br><br>
+<h2><strong></2><br><br>
+    <br>
+    <table class="center", id="table">
+        <tr>
+            <td id= 1 onclick="playGame(1)"></td>
+            <td id= 2 onclick="playGame(2)"></td>
+            <td id= 3 onclick="playGame(3)"></td>
+        </tr>
+        <tr>
+            <td id= 4 onclick="playGame(4)"></td>
+            <td id= 5 onclick="playGame(5)"></td>
+            <td id= 6 onclick="playGame(6)"></td>
+        </tr>
+        <tr>
+            <td id= 7 onclick="playGame(7)"></td>
+            <td id= 8 onclick="playGame(8)"></td>
+            <td id= 9 onclick="playGame(9)"></td>
+        </tr>
+    </table>
+    <br><br>
+    <h3 id="message"></h3>
+    <h2 id="message2"></h2><br>
+<button type="button" id="button"  onclick="location.reload()"> RESTART GAME </button><br><br>
+
+<script src="script.js"></script>
+</body>
+</html>
